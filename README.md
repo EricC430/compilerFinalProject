@@ -24,7 +24,11 @@ C++
 
 ## 執行方法
 在Linux Ubuntu虛擬機中輸入指令:
+
 sudo mount -t vboxsf vm /home/vboxuser/share
+
 cd share
+
 bash FP.sh
+
 ./FP_MiniLISP_Intepreter < public_test_data/01_1.lsp
